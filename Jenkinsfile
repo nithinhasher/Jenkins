@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t docker push nithiiin/jenkins .'
+        sh 'docker build -t nithiiin/jenkins .'
       }
     }
     stage('Login') {
